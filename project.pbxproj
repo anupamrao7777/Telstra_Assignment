@@ -9,20 +9,18 @@
 /* Begin PBXBuildFile section */
 		31DC534EDD31D038D783C097 /* libPods-TelstraTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C8ECFB6FDA223AD1AA7571 /* libPods-TelstraTests.a */; };
 		34C9E61D4D2673E069CF5C6C /* libPods-TelstraUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD4527CE96D1FE8D39918E2 /* libPods-TelstraUITests.a */; };
-		6E13767920613FD100B9CB03 /* Common in Resources */ = {isa = PBXBuildFile; fileRef = 6E13767420613FD100B9CB03 /* Common */; };
-		6E13767A20613FD100B9CB03 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 6E13767520613FD100B9CB03 /* Controller */; };
-		6E13767B20613FD100B9CB03 /* Modal in Resources */ = {isa = PBXBuildFile; fileRef = 6E13767620613FD100B9CB03 /* Modal */; };
-		6E13767C20613FD100B9CB03 /* Network in Resources */ = {isa = PBXBuildFile; fileRef = 6E13767720613FD100B9CB03 /* Network */; };
-		6E13767D20613FD100B9CB03 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 6E13767820613FD100B9CB03 /* View */; };
 		6E1376832061405700B9CB03 /* Config in Resources */ = {isa = PBXBuildFile; fileRef = 6E13767F2061405700B9CB03 /* Config */; };
-		6E1376842061405700B9CB03 /* Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1376802061405700B9CB03 /* Storyboard */; };
-		6E1376852061405700B9CB03 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 6E1376812061405700B9CB03 /* View */; };
 		6E13769C2061455E00B9CB03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E13769B2061455E00B9CB03 /* AppDelegate.m */; };
 		6E9ADA99205FC5FE00F8C4BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9ADA98205FC5FE00F8C4BB /* main.m */; };
 		6E9ADAA5205FC5FE00F8C4BB /* Telstra.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E9ADAA3205FC5FE00F8C4BB /* Telstra.xcdatamodeld */; };
 		6E9ADAA7205FC5FE00F8C4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9ADAA6205FC5FE00F8C4BB /* Assets.xcassets */; };
 		6E9ADAB5205FC5FE00F8C4BB /* TelstraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9ADAB4205FC5FE00F8C4BB /* TelstraTests.m */; };
 		6E9ADAC0205FC5FE00F8C4BB /* TelstraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9ADABF205FC5FE00F8C4BB /* TelstraUITests.m */; };
+		6EE0D906206373580025663A /* THomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D905206373580025663A /* THomeViewController.m */; };
+		6EE0D90D206373BF0025663A /* TFactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D90C206373BF0025663A /* TFactModel.m */; };
+		6EE0D913206373F30025663A /* TFactResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D912206373F30025663A /* TFactResponse.m */; };
+		6EE0D91B206374470025663A /* TFactsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D918206374470025663A /* TFactsView.m */; };
+		6EE0D91C206374470025663A /* TFactsViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D91A206374470025663A /* TFactsViewTableViewCell.m */; };
 		FD9F1994361E7254C6F80B93 /* libPods-Telstra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD8463A04B9DF1AFF9DAE6A /* libPods-Telstra.a */; };
 /* End PBXBuildFile section */
 
@@ -49,14 +47,7 @@
 		3E84B7A471C960F1A7658BCD /* Pods-TelstraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelstraUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TelstraUITests/Pods-TelstraUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4AD4527CE96D1FE8D39918E2 /* libPods-TelstraUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TelstraUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52862BC59E89A167C945EF8C /* Pods-TelstraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelstraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TelstraTests/Pods-TelstraTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6E13767420613FD100B9CB03 /* Common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Common; sourceTree = "<group>"; };
-		6E13767520613FD100B9CB03 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
-		6E13767620613FD100B9CB03 /* Modal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Modal; sourceTree = "<group>"; };
-		6E13767720613FD100B9CB03 /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
-		6E13767820613FD100B9CB03 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
 		6E13767F2061405700B9CB03 /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
-		6E1376802061405700B9CB03 /* Storyboard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Storyboard; sourceTree = "<group>"; };
-		6E1376812061405700B9CB03 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
 		6E13769A2061455E00B9CB03 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E13769B2061455E00B9CB03 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E9ADA94205FC5FE00F8C4BB /* Telstra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telstra.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +60,17 @@
 		6E9ADABB205FC5FE00F8C4BB /* TelstraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelstraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9ADABF205FC5FE00F8C4BB /* TelstraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelstraUITests.m; sourceTree = "<group>"; };
 		6E9ADAC1205FC5FE00F8C4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE0D904206373580025663A /* THomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THomeViewController.h; sourceTree = "<group>"; };
+		6EE0D905206373580025663A /* THomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THomeViewController.m; sourceTree = "<group>"; };
+		6EE0D90B206373BF0025663A /* TFactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFactModel.h; sourceTree = "<group>"; };
+		6EE0D90C206373BF0025663A /* TFactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFactModel.m; sourceTree = "<group>"; };
+		6EE0D911206373F30025663A /* TFactResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFactResponse.h; sourceTree = "<group>"; };
+		6EE0D912206373F30025663A /* TFactResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFactResponse.m; sourceTree = "<group>"; };
+		6EE0D9152063741A0025663A /*  TConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " TConstant.h"; sourceTree = "<group>"; };
+		6EE0D917206374470025663A /* TFactsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFactsView.h; sourceTree = "<group>"; };
+		6EE0D918206374470025663A /* TFactsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFactsView.m; sourceTree = "<group>"; };
+		6EE0D919206374470025663A /* TFactsViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFactsViewTableViewCell.h; sourceTree = "<group>"; };
+		6EE0D91A206374470025663A /* TFactsViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFactsViewTableViewCell.m; sourceTree = "<group>"; };
 		89BC10C9E3092450A712B230 /* Pods-TelstraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelstraUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TelstraUITests/Pods-TelstraUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93D89F89DBF1FD3C5FB76E68 /* Pods-Telstra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telstra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Telstra/Pods-Telstra.debug.xcconfig"; sourceTree = "<group>"; };
 		9DD8463A04B9DF1AFF9DAE6A /* libPods-Telstra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Telstra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,15 +152,13 @@
 		6E9ADA96205FC5FE00F8C4BB /* Telstra */ = {
 			isa = PBXGroup;
 			children = (
+				6EE0D916206374370025663A /* View */,
+				6EE0D914206374090025663A /* Common */,
+				6EE0D910206373E30025663A /* Response */,
+				6EE0D907206373710025663A /* Modal */,
+				6EE0D903206373120025663A /* ViewController */,
 				6E13769D2061457700B9CB03 /* AppDelegate */,
 				6E13767F2061405700B9CB03 /* Config */,
-				6E1376802061405700B9CB03 /* Storyboard */,
-				6E1376812061405700B9CB03 /* View */,
-				6E13767420613FD100B9CB03 /* Common */,
-				6E13767520613FD100B9CB03 /* Controller */,
-				6E13767620613FD100B9CB03 /* Modal */,
-				6E13767720613FD100B9CB03 /* Network */,
-				6E13767820613FD100B9CB03 /* View */,
 				6E9ADAA6205FC5FE00F8C4BB /* Assets.xcassets */,
 				6E9ADAA3205FC5FE00F8C4BB /* Telstra.xcdatamodeld */,
 				6E9ADA97205FC5FE00F8C4BB /* Supporting Files */,
@@ -190,6 +190,52 @@
 				6E9ADAC1205FC5FE00F8C4BB /* Info.plist */,
 			);
 			path = TelstraUITests;
+			sourceTree = "<group>";
+		};
+		6EE0D903206373120025663A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D904206373580025663A /* THomeViewController.h */,
+				6EE0D905206373580025663A /* THomeViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6EE0D907206373710025663A /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D90B206373BF0025663A /* TFactModel.h */,
+				6EE0D90C206373BF0025663A /* TFactModel.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		6EE0D910206373E30025663A /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D911206373F30025663A /* TFactResponse.h */,
+				6EE0D912206373F30025663A /* TFactResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		6EE0D914206374090025663A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D9152063741A0025663A /*  TConstant.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		6EE0D916206374370025663A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D917206374470025663A /* TFactsView.h */,
+				6EE0D918206374470025663A /* TFactsView.m */,
+				6EE0D919206374470025663A /* TFactsViewTableViewCell.h */,
+				6EE0D91A206374470025663A /* TFactsViewTableViewCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		CE38C59057D652B444C39A90 /* Frameworks */ = {
@@ -317,15 +363,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E13767B20613FD100B9CB03 /* Modal in Resources */,
 				6E1376832061405700B9CB03 /* Config in Resources */,
-				6E13767C20613FD100B9CB03 /* Network in Resources */,
 				6E9ADAA7205FC5FE00F8C4BB /* Assets.xcassets in Resources */,
-				6E13767A20613FD100B9CB03 /* Controller in Resources */,
-				6E1376852061405700B9CB03 /* View in Resources */,
-				6E1376842061405700B9CB03 /* Storyboard in Resources */,
-				6E13767920613FD100B9CB03 /* Common in Resources */,
-				6E13767D20613FD100B9CB03 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,9 +527,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE0D90D206373BF0025663A /* TFactModel.m in Sources */,
+				6EE0D906206373580025663A /* THomeViewController.m in Sources */,
 				6E9ADA99205FC5FE00F8C4BB /* main.m in Sources */,
+				6EE0D913206373F30025663A /* TFactResponse.m in Sources */,
+				6EE0D91B206374470025663A /* TFactsView.m in Sources */,
 				6E9ADAA5205FC5FE00F8C4BB /* Telstra.xcdatamodeld in Sources */,
 				6E13769C2061455E00B9CB03 /* AppDelegate.m in Sources */,
+				6EE0D91C206374470025663A /* TFactsViewTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
