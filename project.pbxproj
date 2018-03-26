@@ -16,6 +16,7 @@
 		6E0F9CA920690F6D008664FA /* TFactResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F9CA820690F6D008664FA /* TFactResponse.m */; };
 		6E0F9CAD20690F90008664FA /* TFactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F9CAC20690F90008664FA /* TFactModel.m */; };
 		6E0F9CB120691001008664FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F9CB020691001008664FA /* AppDelegate.m */; };
+		6E0F9CB3206912AD008664FA /* TelstraApiTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F9CB2206912AD008664FA /* TelstraApiTest.m */; };
 		6E1376832061405700B9CB03 /* Config in Resources */ = {isa = PBXBuildFile; fileRef = 6E13767F2061405700B9CB03 /* Config */; };
 		6E1FE11A2068D601008A58D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1FE1192068D601008A58D2 /* SystemConfiguration.framework */; };
 		6E9ADA99205FC5FE00F8C4BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9ADA98205FC5FE00F8C4BB /* main.m */; };
@@ -64,6 +65,7 @@
 		6E0F9CAC20690F90008664FA /* TFactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFactModel.m; sourceTree = "<group>"; };
 		6E0F9CAF20691001008664FA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E0F9CB020691001008664FA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E0F9CB2206912AD008664FA /* TelstraApiTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelstraApiTest.m; sourceTree = "<group>"; };
 		6E13767F2061405700B9CB03 /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
 		6E1FE1192068D601008A58D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6E9ADA94205FC5FE00F8C4BB /* Telstra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telstra.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +243,7 @@
 			children = (
 				6E9ADAB4205FC5FE00F8C4BB /* TelstraTests.m */,
 				6E9ADAB6205FC5FE00F8C4BB /* Info.plist */,
+				6E0F9CB2206912AD008664FA /* TelstraApiTest.m */,
 			);
 			path = TelstraTests;
 			sourceTree = "<group>";
@@ -560,6 +563,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0F9CB3206912AD008664FA /* TelstraApiTest.m in Sources */,
 				6E9ADAB5205FC5FE00F8C4BB /* TelstraTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
