@@ -190,13 +190,6 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		6E0F9CB42069161F008664FA /* abc */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = abc;
-			sourceTree = "<group>";
-		};
 		6E9ADA8B205FC5FD00F8C4BB = {
 			isa = PBXGroup;
 			children = (
@@ -222,7 +215,6 @@
 		6E9ADA96205FC5FE00F8C4BB /* Telstra */ = {
 			isa = PBXGroup;
 			children = (
-				6E0F9CB42069161F008664FA /* abc */,
 				6E0F9CAE20691001008664FA /* AppDelegate */,
 				6E0F9CAA20690F90008664FA /* Modal */,
 				6E0F9CA620690F6D008664FA /* Response */,
